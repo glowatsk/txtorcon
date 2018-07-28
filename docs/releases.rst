@@ -23,6 +23,8 @@ unreleased
 
  * better error-reporting (include REASON and REMOTE_REASON if
    available) when circuit-builds fail (thanks David Stainton)
+ * introduce :meth:`TorControlProtocol.when_disconnected` which should
+   be preferred over use of :var:`TorControlProtocol.on_disconnect`
 
 
 v18.0.2
